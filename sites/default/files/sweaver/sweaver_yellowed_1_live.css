@@ -1,0 +1,19 @@
+.field-content a {
+  color: #05caed;
+}
+
+span a {
+  color: #05caed;
+}
+
+li a {
+  color: #05caed;
+}
+
+.name a {
+  border-top-color: #05caed;
+  border-right-color: #05caed;
+  border-bottom-color: #05caed;
+  border-left-color: #05caed;
+}
+

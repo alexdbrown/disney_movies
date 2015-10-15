@@ -1,0 +1,12 @@
+html, body {
+	height: 100%;
+	background-color: #EEEEEE;
+}
+
+#footer {
+    background: #04c9ed;
+}
+
+.submitted {
+    	background-color: #EEEEEE;
+}

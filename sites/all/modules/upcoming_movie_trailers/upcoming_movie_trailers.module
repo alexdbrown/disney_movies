@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Upcoming Movie Trailers feature.
+ */
+
+include_once 'upcoming_movie_trailers.features.inc';

@@ -1,0 +1,11 @@
+#main-menu a:hover,
+#main-menu li > a.active,
+#main-menu li > a.active-trail {
+  background: none repeat scroll 0 0 #ffffff;
+  color: #04C9ED;
+  text-decoration: none;
+}
+
+.field-item {
+    overflow: hidden;   
+}    
