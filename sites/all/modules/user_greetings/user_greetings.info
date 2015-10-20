@@ -1,0 +1,5 @@
+name = User Greetings
+description = Displays a custom splash screen when a user logs in our out, based on their role type.
+package = My First Modules
+core = 7.x
+files[] = user_greetings.module

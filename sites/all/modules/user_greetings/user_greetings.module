@@ -1,0 +1,19 @@
+<?php
+
+
+function user_greetings_user_login(&$edit, $account) {
+  if (in_array('administrator', $account->roles)) {
+    drupal_set_message('Welcome, Master!');
+  } elseif (in_array('authenticated user', $account->roles)) {
+    drupal_set_message('Nice to see you!');
+  }
+
+}
+
+function user_greetings_user_logout(&$edit, $account) {
+  if (in_array('administrator', $account->roles)) {
+    drupal_set_message('Bye bye bye!');
+  } elseif (in_array('authenticated user', $account->roles)) {
+    drupal_set_message('Come back soon!');
+  }
+}
