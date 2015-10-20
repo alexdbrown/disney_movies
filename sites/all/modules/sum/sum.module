@@ -41,7 +41,7 @@ return $form;
 }
 
 function sum_form_submit($form, &$form_state) {
-  $first_number = $form_state['values']['left_number'];
+  $first_number = $form
   $second_number = $form_state['values']['right_number'];
   $sum = $first_number + $second_number;
   $_SESSION['sum_output'] = $sum;
